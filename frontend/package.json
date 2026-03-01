@@ -1,0 +1,35 @@
+{
+  "name": "lingochat-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev":     "vite --port 3000",
+    "build":   "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react":              "^18.3.1",
+    "react-dom":          "^18.3.1",
+    "react-router-dom":   "^6.24.0",
+    "axios":              "^1.7.2",
+    "@stomp/stompjs":     "^7.0.0",
+    "sockjs-client":      "^1.6.1",
+    "zustand":            "^4.5.4",
+    "dayjs":              "^1.11.11",
+    "framer-motion":      "^11.3.2",
+    "react-hot-toast":    "^2.4.1",
+    "@tanstack/react-query": "^5.51.11",
+    "clsx":               "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/react":          "^18.3.3",
+    "@types/react-dom":      "^18.3.0",
+    "@types/sockjs-client":  "^1.5.4",
+    "@vitejs/plugin-react":  "^4.3.1",
+    "typescript":            "^5.5.3",
+    "vite":                  "^5.3.4",
+    "autoprefixer":          "^10.4.19",
+    "postcss":               "^8.4.40"
+  }
+}
